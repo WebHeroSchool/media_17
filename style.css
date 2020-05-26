@@ -30,7 +30,6 @@ html, body {
 	width: 100%;
 	height: 100%;
 	background: #0000CD;
-	z-index: 2;
 }
 
 /*параметры шапки*/
@@ -91,30 +90,30 @@ html, body {
 		display: flex;
 		position: relative;
 		align-items: center;
-		width: 50px
-		height:50px;
-		
-		}
+		width: 50px;
+		height: 50px;
+	}
 	.header__burger:before,
 	.header__burger:after{
 		content: '';
 		background-color: #fff;
 		position: absolute;
+		margin: 10px 0 0 0;
 		width: 100%;
-		height: 3px;
+		height: 2px;
 		left: 0;
 	}
 	.header__burger:before{
 		top: 0;
 	}
 	.header__burger:after{
-		bottom: 0;
+		bottom: 10px;
 	}
 	.header__burger span{
 		position: absolute;
-		background-color: #000;
+		background-color: #fff;
 		width: 100%;
-		height: 3px;
+		height: 2px;
 		
 	}
 	.header__menu{
